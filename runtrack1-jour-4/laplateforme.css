@@ -1,0 +1,530 @@
+/*--------------ACCUEIL----------------------*/
+header, body, footer{
+	padding: none;
+	margin: 0;
+	font-family: trebuchet, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.title{
+	width: 88vw;
+	text-align: center;
+	color: #88c1d0;
+	padding: 5%;
+}
+
+p{
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.yellow_button{
+	background-color: #ffca4b;
+	padding: 5%;
+	text-align: center;
+	border-radius: 5px;
+}
+.yellow_button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+	background-color: black;
+	transition: 1s;
+}
+.yellow_button a{
+	color: white;
+	font-weight: bold;
+}
+.yellow_button:first-child{
+	margin-top: 10%;
+}
+
+#navbar{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	font-weight: bold;
+	z-index: 10;
+	font-size: 0.95em;
+}
+#menu a{color: black;}
+#menu ul{
+	list-style: none;
+}
+#menu li{
+	display: inline;
+	float: left;
+	padding: 0.8%;
+}
+#menu li:hover{
+	background-color: #88c1d0;
+	margin-left: 0.2%;
+	font-size: 1.1em;
+}	
+.logo1{
+	display: inline-block;
+	float: left;
+	width: 17%;
+	margin: 1% 0 0 2%;
+}
+
+#left_first_content{
+	background-color: #88c1d0;
+	display: inline-block;
+	float: left;
+	width:40vw;
+	height: 85vh;
+	padding: 5%;
+}
+
+section{
+	display: inline-block;
+	float: left;
+	padding-top: 2.5%;
+	margin-bottom: 3%;
+}
+section video{
+	width: 48.8vw;
+	height: 99.5vh;
+}
+
+.description{
+	background-color: white;
+	display: inline-block;
+	float: left;
+	width: 17vw;
+	height: 85vh;
+	margin-left: 6%;
+	border-radius: 20px;
+	border-right: solid 4px black;
+	box-shadow: 10px 10px 10px black;
+}
+.description h2{
+	margin-bottom: 20%;
+	text-align: center;
+}
+#description_content{background-color: white;}
+#description_content p{
+	text-align: left;
+	font-size: 1.1em;
+	padding: 8%;
+}
+#description_content a{
+	color: black;
+}
+
+#post_description_content{
+	background-color: #275fa0;
+	margin-top: 50%;
+	height: 300vh;
+}
+
+
+.video video{
+	display: inline-block;
+	float: left;
+	width: 40vw;
+	padding: 5%;
+}
+.caption{
+	text-align: center;
+	width: auto;
+	padding: 2%;
+	display: inline-block;
+	float:left;
+	background-color: #88c1d0;
+	margin-top: 10%;
+	border-radius: 100px;
+}
+
+.left_last_content,.right_last_content{
+	width: 17%;
+	display: inline-block;
+	margin-top: 3%;
+}
+.right_last_content td,.right_last_content tr{
+	border: solid 2px black;
+	width: 40vw;
+	border-radius: 10px;
+}
+.right_last_content td:hover{
+	background-color: gray;
+}
+.right_last_content{
+	width: 40vw;
+}
+.left_last_content{
+	margin-right: 15%;
+	margin-bottom: 3%;
+	color: #275fa0;
+}
+#last_content{
+	text-align: center;
+}
+
+footer{
+	background-color: #88c1d0;
+}
+.footer_element{
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+.footer_element li{
+	list-style: none;
+}
+.footer_element a{
+	color: white;
+}
+.footer_element img{
+	width: 30%;
+	margin-left: 5%;
+}
+
+#society p{
+	display: inline-block;
+	float:left;
+	width: auto;
+	margin-left: 10%;
+	font-size: 0.8em;
+}
+
+#networks_contain{
+	display: block;
+	clear: both;
+	margin-top: 15%;
+}
+
+#networks img{
+	max-width: 100%;
+	width: 10%;
+	margin-left: 67%;
+}
+#networks img:hover{
+	opacity: 0.7;
+}
+
+.lang{
+	position: fixed;
+	bottom: 0;
+	right: 5%;
+}
+/*-----------------------AI SCHOOL----------------------------*/
+
+#description_ais{
+	text-align: center;
+	background-color: #88c1d0;
+}
+
+.first_img{
+	position: absolute;
+	top: 10vh;
+}
+
+.bloc1 {
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 1%;
+    width: auto;
+    height: auto;
+    float: left;
+    background: rgba(255, 255, 255, 0.267); 
+    border-radius: 5%;
+}
+
+.bloc1:last-child {margin-right: inherit;}
+
+a:link {color: white;}
+a:visited {color:white;}
+a:hover {color: black;}
+a:active{color: white;} 
+
+.d01 {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.d02 {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: auto;
+    height: auto;
+    float: left;
+}
+.d03 {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.d04 {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+/*---------------QUI SOMMES NOUS ?-----------------*/
+
+.titre-quisommesnous {
+    color: black;
+    text-align: center;
+}
+
+.paragraphe-quisommesnous {
+	text-align: left;
+    color: gray;
+	background-color: #88c1d0;
+	width: 100vw;
+	padding: 3%;
+	margin-top: -2%;
+}
+
+.quisommesnous{
+    display: flex;
+    justify-content: center;
+}
+.logoduhaut{
+    display: flex;
+    justify-content: space-around;
+}
+
+.laplateforme_estaussisoutenuepar{text-align: center;}
+
+.logodubas{
+    display: flex;
+    justify-content: space-around;
+}
+.video-sup {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video3{margin-left: 90px;}
+
+/*------------------CODING SCHOOL-------------------*/
+
+#haut{
+    
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+    border-color:  #275fa0;
+    background-color:#88c1d0 ;
+
+}
+
+
+#Milieu{
+    justify-content: space-between;
+}
+
+
+.Milieu1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Milieu2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.tableauvid td iframe{
+    height: 30%;
+
+
+}
+
+.vidtable{
+    border-spacing: 1px;
+}
+
+#child_description{
+    
+
+}
+
+.pole_emploi{
+    position: left;
+}
+
+#logoplat{
+    text-align: center;
+	padding-top: 5%;
+    
+}
+
+#Bas{
+    align-content: center;
+    color: white;
+    border: solid;
+    border-color:  #275fa0;
+    background-color:#88c1d0 ;
+}
+
+.BasGauche{
+    text-align: center;
+}
+
+.BasDroite{
+    align-items: center;
+}
+
+/*-----------------CYBER SECURITY SCHOOL----------------*/
+
+#titre{
+    color: black;
+}
+
+#cyber_presentation{
+	color:black;
+	font-style: verdana;
+	font-size: large;
+	text-align: center;
+	background-color: #88c1d0;
+	margin-left: 400px;
+	margin-right: 400px;
+
+}
+
+#coeur{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #88c1d0;
+}
+
+ .un{
+    
+     text-align: center;
+     
+ }
+
+ .deux{
+    
+     text-align: center;
+     
+     
+     
+     
+ }
+ .trois{
+    
+     text-align: center;
+     
+ }
+ #fin{
+    font-style: verdana;
+    color: cornflowerblue;
+    font-size: large;
+}
+ #logo{
+    text-align: center;
+	padding-top: 5%;
+}
+
+#tableau_video{
+    display: flex;
+    align-content: center;
+}
+
+/*-------------------EXECUTIVE EDUCATION-------------------*/
+
+.alonevid{
+	display: inline-block;
+	float: left;
+	width: auto;
+	margin-left: 6%;
+}
+
+.firstvid{
+	text-align: center;
+}
+
+.first_text{
+	background-color: #88c1d0;
+}
+
+/*-------------------CENTRALE DIGITAL LAB----------------*/
+
+.text-digilab {
+    display: flex;
+    justify-content: center;
+}
+.pargraph1 {
+    text-align: left;
+    color: white;
+}
+.uppertext{
+	background-color: #88c1d0;
+	padding-top: 5%;
+}
+.video-digilab{
+	display: inline-block;
+	float:left;
+	text-align: center;
+	width: 100vw;
+}
+
+.three_vid iframe{
+	padding-left: 8%;
+}
+
+/*--------------------CONTACT---------------------*/
+
+#central{
+    text-align: center;
+    color:cornflowerblue;
+    background-color: white;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.menu{
+    text-align: left;
+}
+.question{
+    font-size: large;
+    font-style: verdana;
+}
+
+.titre{
+	text-align: center;
+}
+
+.liste{
+	text-align: left;
+}
+
+section select, section input{
+	width: 30vw;
+	margin-left: -30%;
+}
