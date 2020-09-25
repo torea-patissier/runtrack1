@@ -1,0 +1,81 @@
+body{
+    background-image: url("lionel-burraschi-photo2.jpg");
+	padding: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin: 0;
+}
+
+h1{
+    font-size:130%;
+    font-weight: 30px;
+    font-family:"Tahoma";
+    color:rgb(0, 0, 0);
+    text-align:center;
+    text-decoration:underline;
+}
+
+h2{
+    color: #ffffff;
+    font-family: Tahoma;
+}
+
+.bio{
+    font-weight: bolder;
+    color: #000000;
+    font-family: Tahoma;
+    text-align: left;
+    border-radius: 10px;
+	width: 20vw;
+    background-color: lightcoral;
+	padding: 10px;
+	box-shadow: 10px 10px 10px black;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.skills{
+    font-weight: bolder;
+    color: #000000;
+    font-family: Tahoma;
+    border-width: 7px;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+    background-color: lightcoral;
+	padding: 20px;
+	width: 20vw;
+	box-shadow: 10px 10px 10px black;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.lifegoals{
+    font-weight: bolder;
+    color: #000000;
+    font-family: Tahoma;
+    border-width: 7px;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+    background-color: lightcoral;
+	padding: 10px;
+	width: 20vw;
+	box-shadow: 10px 10px 10px black;
+    text-align: left;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bas_de_page{
+	padding: 5vh;
+	background-color: black;
+	border-radius: 10px;
+	opacity: 0.6;
+	text-align: center;
+}
+
+#bas_de_page p{
+	margin: 0 auto;
+}

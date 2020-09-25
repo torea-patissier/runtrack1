@@ -1,0 +1,35 @@
+body{
+    background-image: url("brique.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    font-family:'Courier New', Courier, monospace;
+    margin: 7em ;
+    padding: 10%;
+    background-color: springgreen;
+    
+}
+
+    .box {
+        display: flex;
+        justify-content: center;
+        border : 5px solid
+    }
+    
+    .photo{
+        display: flex;
+        justify-content: center;
+        background-color: tomato;
+    }
+    
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+
+    .ombre{
+        text-shadow: 6px 6px 6px;
+    }

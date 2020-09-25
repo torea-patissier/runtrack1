@@ -1,0 +1,39 @@
+body {
+    background-color:#F2EBDC;
+    background-image: url(https://zupimages.net/up/20/39/82nu.jpg);
+    
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    margin-top: 50px;
+    text-decoration: underline;
+    background-color:rgb(92, 92, 92);
+    box-shadow: black 10px 10px 10px;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+a:hover{
+    background-color: gold;
+}
+
+.paragraphe {
+    color: black;
+    font-family: verdana;
+    padding-left: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5mm;
+    list-style-type: none;
+    
+    
+}
+
+a {
+    position: relative; top: -545px; right: -1550px;
+}
+
+

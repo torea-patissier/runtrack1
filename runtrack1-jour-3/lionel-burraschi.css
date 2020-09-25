@@ -1,0 +1,57 @@
+body{
+    background-image: url("lionel-burraschi-photo3.jpg");
+}
+
+h1{
+    font-size:150%;
+    font-weight: 40px;
+    font-family: "Trebuchet MS";
+    color:rgb(0, 0, 0);
+    text-align:center;
+    text-decoration:underline;
+}
+
+h2{
+    color: #ffffff;
+    font-family: "Trebuchet MS";
+}
+
+.bio{
+    font-weight: bolder;
+    color: #000000;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.skills{
+    font-weight: bolder;
+    color: #000000;
+    font-family: "Trebuchet MS";
+    border-width: 7px;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+    background-color: lightblue;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.lifegoals{
+    font-weight: bolder;
+    color: #000000;
+    font-family: "Trebuchet MS";
+    border-width: 7px;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

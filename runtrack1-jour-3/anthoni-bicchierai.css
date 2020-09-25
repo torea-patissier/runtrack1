@@ -1,0 +1,32 @@
+body {
+    background-color:#F2EBDC;
+    background-image: url(https://zupimages.net/up/20/39/g9v1.jpg);
+    
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-shadow: black 10px 10px 10px;
+  }
+
+.paragraphe {
+    color: black;
+    font-family: verdana;
+    padding-left: 0px;
+    padding-top: 50px;
+    font-size: 5mm;
+    text-align: center;
+        list-style-type: none;
+    
+    
+}
+
+a {
+    position: relative; top: -545px; right: -1550px;
+}
+
+

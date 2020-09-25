@@ -1,0 +1,76 @@
+
+body {
+
+    background-image: url(https://zupimages.net/up/20/39/xio4.jpg);
+    color: white;
+    font-family: Verdana;
+  }
+
+  h1 {
+font-size: 80px; 
+background-color: gray;
+border-radius: 40px;
+margin-right: 500px;
+margin-left: 500px;
+
+ }
+
+ ul  {
+font-size: 24px;
+list-style-type: none;
+font-family: Geneva;
+ }
+ 
+  .Jameson {
+      text-align: center;
+      background: hsla(50, 3%, 6%, 0.5)
+  }
+
+  .photoréa
+  {
+      text-align: center;
+      
+  }
+
+  <style>
+
+ a:link {
+color: white;
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    color: black;
+}
+a:active{
+    color: white;
+} 
+</style>
+
+
+.div1 {
+    text-align: right;
+}
+
+.div2 {
+    text-align: center;
+}
+
+.div0 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    }
+    .lid1 {
+        background-color: gray; 
+        background: hsla(50, 3%, 6%, 0.5)
+    }
+
+    .lid2 {
+        text-shadow: 6px 6px 6px;
+    }
